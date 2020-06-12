@@ -15,7 +15,6 @@ adminroute.get('/lity-admin', (req, res) => {
   res.sendFile(path.join(__dirname+'/cms/index.html'));
   req.session.page_view++;
   res.cookie('name', 'express');
-  console.log(`admin viewed ${req.session.page_view}`);
 });
 adminroute.get('/page-builder', (req, res) => {
   res.sendFile(path.join(__dirname+'/cms/page-builder.html'));

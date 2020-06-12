@@ -16,6 +16,5 @@ app.use(adminroute);
 app.get('*', (req, res) => {
   res.send('404');
 });
-debugger;
 app.listen(port);
 console.log(`app is listening at port ${process.env.USER} as ${port}`);
