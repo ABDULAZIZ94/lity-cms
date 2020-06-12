@@ -21,6 +21,12 @@ $("#a_users").click(function(){
     $("#main").html(result);
   }});
 });
+$('#btn_logout').click(function (){
+  alert('click ok');
+  $.ajax({url: "/destroysession", success: function(result){
+    alert(result);
+  }});
+});
 
 
 
