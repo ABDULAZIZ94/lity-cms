@@ -8,6 +8,10 @@ adminroute.get('/lity-admin', (req, res) => {
   res.sendFile(path.join(__dirname+'/cms/index.html'));
   debugger;
 });
+adminroute.get('/admin-panel', (req, res) => {
+  res.sendFile(path.join(__dirname+'/cms/admin-panel.html'));
+  debugger;
+});
 
 module.exports.css = css;
 module.exports.js = js;
