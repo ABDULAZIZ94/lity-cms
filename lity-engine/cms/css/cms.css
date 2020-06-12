@@ -1,3 +1,6 @@
+body{
+  display: inline;
+}
 .sidenav {
   background-color: #111; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
@@ -20,6 +23,11 @@
 /* Style page content */
 .main {
   padding: 0px 10px;
-  background-color: aqua;
   min-height: 100vh !important;
+  background-color: wheat;
+}
+.row {
+  /*remove boostrap .row extra space*/
+  margin-left: 0px;
+  margin-right: 0px;
 }
