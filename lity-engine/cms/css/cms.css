@@ -31,3 +31,8 @@ body{
   margin-left: 0px;
   margin-right: 0px;
 }
+@media(max-width:576px){
+  .col-xs-12.sidenav{
+    min-height: auto !important; /*overider 100vh*/
+  }
+}
